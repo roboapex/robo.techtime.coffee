@@ -15,12 +15,11 @@ module.exports = {
   projectName: 'roboapex.github.io',
   trailingSlash: true,
   themeConfig: {
-    hideableSidebar: true,
-    // announcementBar: {
-    //   id: "announcement",
-    //   content:
-    //     'This website is work-in-progress',
-    // },
+    docs: {
+    sidebar: {
+      hideable: true,
+      },
+    },
     navbar: {
       title: 'Robotics @APEX',
       logo: {
