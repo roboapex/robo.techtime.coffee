@@ -8,5 +8,5 @@ In Robotics @APEX, we make use of the VEX V5 parts family as SST falls under the
 
 # A legacy of VEX #
 
-In SST's history of participating in VEX, we have claimed over 30 awards across multiple prestigious competitions globally. These include World's Division Finalist, Tournament Champions, and many other awards that recognise a high degree of excellence and performance in teams. 
+In SST's history of participating in VEX, we have claimed over 30 awards across multiple prestigious competitions globally. These include World's Division Finalist, Tournament Champions, Excellence, and many other awards that recognise a high degree of excellence and performance in teams. 
 
