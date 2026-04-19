@@ -1,5 +1,5 @@
 export interface CompetitionEvent {
-  regions: { [k: string]: CompetitionRegion }
+  region: { [k: string]: CompetitionRegion }
 }
 
 export interface CompetitionRegion {
@@ -11,7 +11,7 @@ export type CompetitionRegionCode = string
 export type CompetitionEventCode = "nrc" | "robocup" | "fll" | "ide" | "apyrc" | "vex" | "bullseye" | "roborave" | "makex" | "wro" | "ftc" | "blanks"
 export const CompetitionCodes: { [k in CompetitionEventCode]: CompetitionEvent } = {
   nrc: {
-    regions: {
+    region: {
       sg: {
         name: "National Robotics Competition (Singapore)",
         website: "https://ducklearning.com/pages/nrc-sg"
@@ -19,7 +19,7 @@ export const CompetitionCodes: { [k in CompetitionEventCode]: CompetitionEvent }
     }
   },
   robocup: {
-    regions: {
+    region: {
       sg: {
         name: "Robocup Singapore Open",
         website: "https://robocupsg.org/en/singaporeopen",
@@ -34,7 +34,7 @@ export const CompetitionCodes: { [k in CompetitionEventCode]: CompetitionEvent }
     }
   },
   fll: {
-    regions: {
+    region: {
       sg: {
         name: "First LEGO League",
         website: "https://www.firstlegoleague.org/",
@@ -42,7 +42,7 @@ export const CompetitionCodes: { [k in CompetitionEventCode]: CompetitionEvent }
     }
   },
   ide: {
-    regions: {
+    region: {
       sg: {
         name: "IDE (Innovation, Design and Engineering) Series",
         website: "https://ideseries.org/",
@@ -50,7 +50,7 @@ export const CompetitionCodes: { [k in CompetitionEventCode]: CompetitionEvent }
     }
   },
   apyrc: {
-    regions: {
+    region: {
       sg: {
         name: "Asia Pacific Youth Robotics Competition",
         website: "https://apyrc.com/"
@@ -58,7 +58,7 @@ export const CompetitionCodes: { [k in CompetitionEventCode]: CompetitionEvent }
     }
   },
   vex: {
-    regions: {
+    region: {
       sg: {
         name: "Singapore VEX Robotics Competition"
       },
@@ -71,7 +71,7 @@ export const CompetitionCodes: { [k in CompetitionEventCode]: CompetitionEvent }
     }
   },
   bullseye: {
-    regions: {
+    region: {
       sg: {
         name: "Bull’s Eye Competition",
         website: "https://victoria.moe.edu.sg/bulls-eye-competition/"
@@ -79,7 +79,7 @@ export const CompetitionCodes: { [k in CompetitionEventCode]: CompetitionEvent }
     }
   },
   roborave: {
-    regions: {
+    region: {
       kaga: {
         name: "RoboRave Kaga Japan",
         website: "https://www.roborave-kaga.com/"
@@ -91,7 +91,7 @@ export const CompetitionCodes: { [k in CompetitionEventCode]: CompetitionEvent }
     }
   },
   makex: {
-    regions: {
+    region: {
       sg: {
         name: "MakeX Robotics Competition Singapore",
         website: "https://www.makexsg.com/"
@@ -103,7 +103,7 @@ export const CompetitionCodes: { [k in CompetitionEventCode]: CompetitionEvent }
     }
   },
   wro: {
-    regions: {
+    region: {
       sg: {
         name: "World Robot Olympiad",
         website: "https://wro-association.org/"
@@ -111,7 +111,7 @@ export const CompetitionCodes: { [k in CompetitionEventCode]: CompetitionEvent }
     }
   },
   ftc: {
-    regions: {
+    region: {
       sg: {
         name: "FIRST Tech Challenge Singapore",
         website: "https://www.firstinspires.org/ftc"
@@ -119,7 +119,7 @@ export const CompetitionCodes: { [k in CompetitionEventCode]: CompetitionEvent }
     }
   },
   blanks: {
-    regions: {
+    region: {
       sg: {
         name: "Blank's Beginnings"
       }

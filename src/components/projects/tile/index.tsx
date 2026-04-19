@@ -27,8 +27,8 @@ export default function ProjectTile({
       projectName: nameData?.[5]?.replace("_", " ") ?? nameData[0],
       event: {
         code: nameData[1],
-        name: CompetitionCodes[nameData[1]].regions[nameData[2]].name,
-        website: CompetitionCodes[nameData[1]].regions[nameData[2]].website,
+        name: CompetitionCodes[nameData[1]].region[nameData[2]].name,
+        website: CompetitionCodes[nameData[1]].region[nameData[2]].website,
       },
       year: parseInt(nameData[4]),
     });
