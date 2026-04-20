@@ -31,7 +31,7 @@
     "swr": "^0.5.6",
     "url-loader": "^4.1.1",
     "url-search-params-polyfill": "^8.1.1",
-    "webpack": "5.95.0"
+    "webpack": "5.104.1"
   },
   "browserslist": {
     "production": [
@@ -57,6 +57,6 @@
   },
   "overrides": {
     "cheerio": "1.0.0-rc.12",
-    "webpack": "5.95.0"
+    "webpack": "5.104.1"
   }
 }
