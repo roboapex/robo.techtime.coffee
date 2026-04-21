@@ -4,6 +4,24 @@
       {
         "awards": [
           {
+            "category": "RCJ U19",
+            "recipients": [
+              "Lai Hong Yu",
+              "Chew Jin Rui Rayden",
+              "Nathanael Chin Chi Yi",
+              "Tejeshwar Nandagopal"
+            ],
+            "team": "SSTeio",
+            "title": "3rd Runner Up | Merit"
+          }
+        ],
+        "code": "robocup",
+        "desc": "",
+        "region": "sg"
+      },
+      {
+        "awards": [
+          {
             "category": "Overall",
             "recipients": [
               "Damien Chong Yu Zhe",
@@ -18,6 +36,7 @@
         "desc": "",
         "region": "sg"
       }
+
     ],
     "year": 2026
   },
@@ -30,53 +49,25 @@
             "recipients": [],
             "team": "",
             "title": "International Qualifier"
-          }
-        ],
-        "code": "wro",
-        "desc": "",
-        "region": "sg"
-      },
-      {
-        "awards": [
+          },
           {
             "category": "WRO Future Engineers",
             "recipients": [],
             "team": "",
             "title": "International Qualifier"
-          }
-        ],
-        "code": "wro",
-        "desc": "",
-        "region": "sg"
-      },
-      {
-        "awards": [
+          },
           {
             "category": "WRO Robosports",
             "recipients": [],
             "team": "",
             "title": "Champion"
-          }
-        ],
-        "code": "wro",
-        "desc": "",
-        "region": "sg"
-      },
-      {
-        "awards": [
+          },
           {
             "category": "WRO Future Engineers",
             "recipients": [],
             "team": "",
             "title": "1st Runner-up"
-          }
-        ],
-        "code": "wro",
-        "desc": "",
-        "region": "sg"
-      },
-      {
-        "awards": [
+          },
           {
             "category": "WRO Future Engineers",
             "recipients": [],
@@ -95,14 +86,7 @@
             "recipients": [],
             "team": "",
             "title": "Judges Award"
-          }
-        ],
-        "code": "vex",
-        "desc": "",
-        "region": "sg"
-      },
-      {
-        "awards": [
+          },
           {
             "category": "Overall",
             "recipients": [],
@@ -156,14 +140,7 @@
             "recipients": [],
             "team": "",
             "title": "Open Category 2nd Runner-up"
-          }
-        ],
-        "code": "nrc",
-        "desc": "",
-        "region": "sg"
-      },
-      {
-        "awards": [
+          },
           {
             "category": "National Robotics Competiton",
             "recipients": [],
@@ -200,14 +177,7 @@
             "recipients": [],
             "team": "",
             "title": "4th Place"
-          }
-        ],
-        "code": "roborave",
-        "desc": "",
-        "region": "australia"
-      },
-      {
-        "awards": [
+          },
           {
             "category": "Roborave International Alpine Challenge",
             "recipients": [],
@@ -226,40 +196,19 @@
             "recipients": [],
             "team": "",
             "title": "Champion"
-          }
-        ],
-        "code": "wro",
-        "desc": "",
-        "region": "sg"
-      },
-      {
-        "awards": [
+          },
           {
             "category": "WRO Robosports",
             "recipients": [],
             "team": "",
             "title": "Camaraderie Award"
-          }
-        ],
-        "code": "wro",
-        "desc": "",
-        "region": "sg"
-      },
-      {
-        "awards": [
+          },
           {
             "category": "WRO Robosports",
             "recipients": [],
             "team": "",
             "title": "3rd Place"
-          }
-        ],
-        "code": "wro",
-        "desc": "",
-        "region": "sg"
-      },
-      {
-        "awards": [
+          },
           {
             "category": "WRO Robosports",
             "recipients": [],
@@ -278,14 +227,7 @@
             "recipients": [],
             "team": "",
             "title": "Open Category 2nd Place"
-          }
-        ],
-        "code": "nrc",
-        "desc": "",
-        "region": "sg"
-      },
-      {
-        "awards": [
+          },
           {
             "category": "National Robotics Competiton",
             "recipients": [],
@@ -304,27 +246,13 @@
             "recipients": [],
             "team": "",
             "title": "4th Place"
-          }
-        ],
-        "code": "ide",
-        "desc": "",
-        "region": "sg"
-      },
-      {
-        "awards": [
+          },
           {
             "category": "IDE Robotics",
             "recipients": [],
             "team": "",
             "title": "2nd Place"
-          }
-        ],
-        "code": "ide",
-        "desc": "",
-        "region": "sg"
-      },
-      {
-        "awards": [
+          },
           {
             "category": "IDE Robotics",
             "recipients": [],
@@ -343,27 +271,13 @@
             "recipients": [],
             "team": "",
             "title": "2nd Runner-up"
-          }
-        ],
-        "code": "fll",
-        "desc": "",
-        "region": "sg"
-      },
-      {
-        "awards": [
+          },
           {
             "category": "Robot Performance Award",
             "recipients": [],
             "team": "",
             "title": "2nd Runner-up"
-          }
-        ],
-        "code": "fll",
-        "desc": "",
-        "region": "sg"
-      },
-      {
-        "awards": [
+          },
           {
             "category": "Champions Category",
             "recipients": [],
@@ -387,27 +301,13 @@
             "recipients": [],
             "team": "",
             "title": "2nd Place"
-          }
-        ],
-        "code": "roborave",
-        "desc": "",
-        "region": "kaga"
-      },
-      {
-        "awards": [
+          },
           {
             "category": "a-MAZE-ing Challenge High School",
             "recipients": [],
             "team": "",
             "title": "4th Place"
-          }
-        ],
-        "code": "roborave",
-        "desc": "",
-        "region": "kaga"
-      },
-      {
-        "awards": [
+          },
           {
             "category": "Line Following Challenge High School",
             "recipients": [],
@@ -426,40 +326,19 @@
             "recipients": [],
             "team": "",
             "title": "Finalist"
-          }
-        ],
-        "code": "wro",
-        "desc": "",
-        "region": "sg"
-      },
-      {
-        "awards": [
+          },
           {
             "category": "WRO Robosports",
             "recipients": [],
             "team": "",
             "title": "1st Runner-up"
-          }
-        ],
-        "code": "wro",
-        "desc": "",
-        "region": "sg"
-      },
-      {
-        "awards": [
+          },
           {
             "category": "WRO Future Innovators",
             "recipients": [],
             "team": "",
             "title": "2nd Runner-up"
-          }
-        ],
-        "code": "wro",
-        "desc": "",
-        "region": "sg"
-      },
-      {
-        "awards": [
+          },
           {
             "category": "WRO Future Innovators",
             "recipients": [],
@@ -478,14 +357,7 @@
             "recipients": [],
             "team": "",
             "title": "Best Presentation 3rd Place"
-          }
-        ],
-        "code": "nrc",
-        "desc": "",
-        "region": "sg"
-      },
-      {
-        "awards": [
+          },
           {
             "category": "National Robotics Competiton",
             "recipients": [],
@@ -517,14 +389,7 @@
             "recipients": [],
             "team": "",
             "title": "9th Place"
-          }
-        ],
-        "code": "ide",
-        "desc": "",
-        "region": "sg"
-      },
-      {
-        "awards": [
+          },
           {
             "category": "IDE Robotics",
             "recipients": [],
@@ -574,14 +439,7 @@
             "recipients": [],
             "team": "",
             "title": "Future Engineers Judges Commendation"
-          }
-        ],
-        "code": "nrc",
-        "desc": "",
-        "region": "sg"
-      },
-      {
-        "awards": [
+          },
           {
             "category": "National Robotics Competiton",
             "recipients": [],
@@ -600,66 +458,31 @@
             "recipients": [],
             "team": "",
             "title": "9th Place"
-          }
-        ],
-        "code": "ide",
-        "desc": "",
-        "region": "sg"
-      },
-      {
-        "awards": [
+          },
           {
             "category": "IDE Robotics",
             "recipients": [],
             "team": "",
             "title": "8th Place"
-          }
-        ],
-        "code": "ide",
-        "desc": "",
-        "region": "sg"
-      },
-      {
-        "awards": [
+          },
           {
             "category": "IDE Robotics",
             "recipients": [],
             "team": "",
             "title": "7th Place"
-          }
-        ],
-        "code": "ide",
-        "desc": "",
-        "region": "sg"
-      },
-      {
-        "awards": [
+          },
           {
             "category": "IDE Robotics",
             "recipients": [],
             "team": "",
             "title": "4th Place"
-          }
-        ],
-        "code": "ide",
-        "desc": "",
-        "region": "sg"
-      },
-      {
-        "awards": [
+          },
           {
             "category": "IDE Robotics",
             "recipients": [],
             "team": "",
             "title": "Champion"
-          }
-        ],
-        "code": "ide",
-        "desc": "",
-        "region": "sg"
-      },
-      {
-        "awards": [
+          },
           {
             "category": "IDE Sprint",
             "recipients": [],
@@ -678,14 +501,7 @@
             "recipients": [],
             "team": "",
             "title": "Robot Performance Award 3rd Place"
-          }
-        ],
-        "code": "fll",
-        "desc": "",
-        "region": "sg"
-      },
-      {
-        "awards": [
+          },
           {
             "category": "Secondary",
             "recipients": [],

@@ -7,7 +7,7 @@ import {
   Achievements,
   AchievementsFilterProperties,
 } from "../../types/achievements";
-import achievementsData from "../../data/achievements.json";
+import achievementsData from "../../../data/achievements/achievements.json";
 import Link from "@docusaurus/Link";
 
 import style from "./style.module.scss";
