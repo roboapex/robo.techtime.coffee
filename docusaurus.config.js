@@ -38,6 +38,7 @@ module.exports = {
         // },
         { to: '/achievements', label: 'Achievements', position: 'left' },
         { to: '/projects', label: 'Projects', position: 'left' },
+        {to: 'https://robo.techtime.coffee/', label: 'Attendance', position: 'left'},
         {
           position: 'left',
           label: 'Docs',

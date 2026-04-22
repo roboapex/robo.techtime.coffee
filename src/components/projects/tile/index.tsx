@@ -10,7 +10,8 @@ import { CompetitionCodes } from "../../../types/competitions";
 import style from "./style.module.scss";
 
 /**
- * nameData in the format {0: full_name, 1: eventCode, 2: eventRegion, 3: year, 4: groupName [, 5: projectName]}
+ * nameData in the format {0: full_name, 1: yearPrefix, 2: year(4digits), 3: eventCode, 4: eventRegion, 5: groupName [, 6: projectName]}
+ * Repo naming convention: [YEAR][4digits]-[event]-[team]-[other]
  */
 export default function ProjectTile({
   nameData,
@@ -22,17 +23,20 @@ export default function ProjectTile({
   const [project, setProject] = useState<Project>();
 
   useEffect(() => {
+    const eventCode = nameData[3];
+    const regionCode = nameData[4];
+    const competitionEntry = CompetitionCodes[eventCode];
+    const regionEntry = competitionEntry?.region[regionCode];
     setProject({
       groupName: nameData[5],
       projectName: nameData?.[5]?.replace("_", " ") ?? nameData[0],
       event: {
-        code: nameData[1],
-        name: CompetitionCodes[nameData[1]].region[nameData[2]].name,
-        website: CompetitionCodes[nameData[1]].region[nameData[2]].website,
+        code: eventCode,
+        name: regionEntry?.name ?? eventCode,
+        website: regionEntry?.website,
       },
-      year: parseInt(nameData[4]),
+      year: parseInt(nameData[2]),
     });
-    console.log(nameData, repo)
   }, [repo]);
 
   return (
